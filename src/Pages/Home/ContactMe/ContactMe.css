@@ -1,0 +1,23 @@
+.form-bg{
+    background-color: rgb(206, 227, 235);
+    /* background-color: darkblue; */
+}
+.contact h2{
+    color: darkblue;
+    padding: 20px;
+}
+
+.contact form input{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+.contact form textarea{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
