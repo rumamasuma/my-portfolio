@@ -14,7 +14,7 @@ const ContactMe = () => {
         ).then(res=>{
             console.log(res);
         }).catch(err => console.log(err));
-            
+        window.location.reload(false)  ;  
     };
     return (
         <div className='contact m-4 p-5'>

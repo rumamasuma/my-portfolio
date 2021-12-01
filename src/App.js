@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router,Switch, Route} from "react-router-dom";
 import Home from './Pages/Home/Home/Home';
 import AboutMe from './Pages/Home/AboutMe/AboutMe';
+import ProjectDetail from './Pages/Home/ProjectDetail/ProjectDetail';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route  path='/about'>
      <AboutMe></AboutMe>
+      </Route>
+      <Route path='/projects/:projectId'>
+      <ProjectDetail></ProjectDetail>
       </Route>
     </Switch>
   </Router>
