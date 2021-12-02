@@ -1,0 +1,20 @@
+footer{
+    background-color: cornflowerblue;
+  
+}
+.logo{
+  width: 100px;
+}
+.logo2{
+  width: 150px;
+}
+.footer-heading{
+  color: darkblue;
+}
+
+.icon i {
+  color: rgb(228, 217, 204);
+  font-size:50px;
+  padding-right: 10px;
+   
+}

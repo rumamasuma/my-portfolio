@@ -2,7 +2,7 @@ import React from 'react';
 import myImg from '../../../images/myImg3.png';
 const AboutMe = () => {
     return (
-        <div id='about'   className='m-5 p-5 border'>
+        <div id='about'   className='m-5 p-5 border fst-italic contact'>
             <h2>Some Words About Me</h2>
             <div>
             <div className="card mb-3" >
@@ -23,14 +23,14 @@ const AboutMe = () => {
             <div className="card mb-3" >
   <div className="row g-0">
     <div className="col-md-4 d-flex justify-content-center align-items-center">
-    <h5 className="card-title ">Education</h5>
+    <h5 className="card-title "><i class="fas fa-user-graduate"></i> Education</h5>
     </div>
     <div className="col-md-6 d-flex justify-content-center align-items-center">
       <div className="card-body">
        
-        <h5 className="card-text text-start"> Sheikh Borhan Uddin Post Graduate College</h5>
+        <h5 className="card-text text-start"><i class="fas fa-university"></i>  Sheikh Borhan Uddin Post Graduate College</h5>
         <p className="card-text  text-start">M.Sc in Computer Science and Engineering(CSE)</p> 
-        <h5 className="card-text text-start">National University</h5>
+        <h5 className="card-text text-start"><i class="fas fa-university"></i> National University</h5>
         <p className="card-text  text-start">B.Sc in Computer Science and Engineering(CSE)</p> 
       
       </div>

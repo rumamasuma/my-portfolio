@@ -29,7 +29,7 @@ const ContactMe = () => {
       <input type='email' name='user_email'   placeholder="Your Email"  />
       <input type='subject' name='subject'  placeholder="Your Subject"  />
       <textarea  name='message'  placeholder="Your Message" /> <br/>
-      <input   type="submit" value='Send' className='w-25 bold' />
+       <input   type="submit" value='Send Message' className='w-25 bold'  />
     </form>
             </div>
             </div>

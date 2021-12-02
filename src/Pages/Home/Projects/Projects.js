@@ -13,7 +13,7 @@ useEffect(()=>{
 },[])
 
     return (
-        <div className='container'>
+        <div className='container contact fst-italic'>
             <h2>My Recent Projects</h2>
             <div className='row row-cols-1 row-cols-md-2 g-4'>
   {

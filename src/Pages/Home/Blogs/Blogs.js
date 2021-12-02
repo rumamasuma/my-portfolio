@@ -4,7 +4,7 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div id='blog' className=' mt-5 fst-italic'>
+        <div id='blog' className=' mt-5 fst-italic contact'>
 <h2> My Blog</h2>
         <div className='blog  row d-flex align-items-center justify-content-center'>
         <div >
