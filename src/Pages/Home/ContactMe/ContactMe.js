@@ -17,7 +17,7 @@ const ContactMe = () => {
         window.location.reload(false)  ;  
     };
     return (
-        <div className='contact m-4 p-5'>
+        <div id='contact' className='contact m-4 p-5'>
             <h2 >Lets Get in Touch</h2>
             <div className='row d-flex align-items-center justify-content-center contact form-bg rounded '>
            <div className="col-md-6">

@@ -5,7 +5,7 @@ const Project = (props) => {
 const {id,image1,title} = props.project;
 
     return (
-        <div>
+        <div id='projects'>
              <div className="col  p-3" >
       <div className="card h-100 ">
         <img src={image1}  className="card-img-top p-3" alt="..."/>

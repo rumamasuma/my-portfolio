@@ -12,7 +12,7 @@ import mongodb from '../../../images/mongodb.png';
 
 const Skills = () => {
     return (
-        <div className='m-5 p-5 border rounded'>
+        <div id='skills'  className='m-5 p-5 border rounded'>
             <h2> General Skills that I Gained</h2>
             <div className="row">
   <div className="col-sm-12 col-md-4">
