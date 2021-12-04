@@ -1,14 +1,5 @@
 import React from 'react';
-import html from '../../../images/html.png';
-import css from '../../../images/css3.png';
-import js from '../../../images/javascript.png';
-import react from '../../../images/reacat.jpg';
-import bootstrap from '../../../images/bootstrab5.jpg'
-import tailwind from '../../../images/tailwindcss.png';
-import mui from '../../../images/mui.png';
-import node from '../../../images/nodejs.png';
-import express from '../../../images/express.png';
-import mongodb from '../../../images/mongodb.png';
+
 
 const Skills = () => {
     return (
@@ -53,19 +44,3 @@ const Skills = () => {
 };
 
 export default Skills;
-{/* <img src={html} alt="" className='w-25  p-2 m-2' />
-<img src={css} alt="" className='w-25 p-2 m-2' />
-<img src={js} alt="" className='w-25 p-2 m-2' />
-<img src={react} alt="" className='w-25 p-2 m-2' />
-<img src={bootstrap} alt="" className='w-25 p-2 m-2' />
-<img src={tailwind} alt="" className='w-25 p-2 m-2' />
-<img src={mui} alt="" className='w-25 p-2 m-2' /> */}
-{/* <ul className='list-styled'>
-<li>HTML   <img src={html} alt="" className='w-25  p-2 m-2' /></li>
-<li>CSS   <img src={css} alt="" className='w-25  p-2 m-2' /></li>
-<li>JavaScript   <img src={js} alt="" className='w-25  p-2 m-2' /></li>
-<li>React  <img src={react} alt="" className='w-25  p-2 m-2' /></li>
-<li>Bootstrap  <img src={bootstrap} alt="" className='w-25  p-2 m-2' /></li>
-<li>Tailwind CSS <img src={tailwind} alt="" className='w-25  p-2 m-2' /></li>
-<li>Material UI  <img src={mui} alt="" className='w-25  p-2 m-2' /></li>
-</ul> */}

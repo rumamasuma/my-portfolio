@@ -2,7 +2,7 @@
     background-color: rgb(206, 227, 235);
     /* background-color: darkblue; */
 }
-.contact h2{
+.contact h1,h2{
     color: darkblue;
     padding: 20px;
 }

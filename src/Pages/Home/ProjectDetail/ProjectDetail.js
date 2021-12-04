@@ -4,6 +4,9 @@ import { useParams } from 'react-router';
 import './ProjectDetails.css';
 
 const ProjectDetail = () => {
+
+
+
     const {projectId} = useParams();
 
     const [projectDetails, setProjectDetails] = useState({});
@@ -20,35 +23,38 @@ const ProjectDetail = () => {
 
     return (
         <div className=''>
-            <h2>{projectDetails.title}</h2>
-
-       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="" className="d-block w-100" alt="..."/>
-          </div>
-          <div className="carousel-item">
-            <img src=""  className="d-block w-100" alt="..."/>
-          </div>
-          {/* <div className="carousel-item">
-            <img src={projectDetails.image4}  className="d-block w-100" alt="..."/>
-          </div>
-          <div className="carousel-item">
-            <img src={projectDetails.image5}  className="d-block w-100" alt="..."/>
-          </div> */}
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+           
+           <h2>{projectDetails.title}</h2>
+           <div classname='container'>
+              <div className="row g-4 m-3">
+     <div className="col-md-6 product p-4">
+     <div className="card">
+      <img src={projectDetails.image2} className="card-img-top p-3" alt="..."/>
+      <div className="card-body">
+      <a href={projectDetails?.livesite} className=' btn btn-primary rounded m-2'>Live Site</a>
+      <a href={projectDetails?.clientSide} className=' btn btn-primary rounded m-2'>Client Side</a>
+      <a href={projectDetails?.serverSide} className=' btn btn-primary rounded m-2'>Server Side</a>  
       </div>
-    
+      </div>
+      </div>
+      </div>
+     </div>
         </div>
     );
 };
 
 export default ProjectDetail;
+{/* <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+<div className="carousel-inner">
+  <div className="carousel-item active">
+    <img src={projectDetails.image2} className="d-block w-100" alt="..."/>
+  </div>
+  <div className="carousel-item" >
+    <img src={projectDetails.image3} className="d-block w-100" alt="..."/>
+  </div>
+  <div className="carousel-item ">
+    <img src={projectDetails.image4} className="d-block w-100" alt="..."/>
+  </div>
+ 
+</div>
+</div> */}
