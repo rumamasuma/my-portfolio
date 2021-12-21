@@ -39,7 +39,8 @@ const Banner = () => {
       </Nav.Link>
       </div>
          <div>  
-            <a href='https://drive.google.com/uc?id=1bXpcjA8z8eNxeSnQkRwNTZclHFloe6XY&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a>
+            {/* <a href='https://drive.google.com/uc?id=1bXpcjA8z8eNxeSnQkRwNTZclHFloe6XY&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a> */}
+            <a href='https://drive.google.com/uc?id=18aokcPLakc0M7zpSSalcw_32JFXRFoX-&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a>
           </div>
       </div>       
            </div>
@@ -51,6 +52,4 @@ const Banner = () => {
 };
 
 export default Banner;
-{/* <h1>Hi,</h1>
-<h2>This is Masuma Khatun</h2>
-<h1> Front End Web Developer </h1> */}
+// https://drive.google.com/drive/folders/18aokcPLakc0M7zpSSalcw_32JFXRFoX-
