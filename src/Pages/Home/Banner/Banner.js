@@ -40,7 +40,7 @@ const Banner = () => {
       </div>
          <div>  
             {/* <a href='https://drive.google.com/uc?id=1bXpcjA8z8eNxeSnQkRwNTZclHFloe6XY&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a> */}
-            <a href='https://drive.google.com/uc?id=18aokcPLakc0M7zpSSalcw_32JFXRFoX-&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a>
+            <a href='https://drive.google.com/uc?id=1qnI6bDBnzA_Pq2g5UBqWr9nIcdiDrhxo&export=download' className="btn btn-primary  "> <i class="fas fa-cloud-download-alt"></i> DOWNLOAD MY RESUME </a>
           </div>
       </div>       
            </div>
