@@ -44,17 +44,3 @@ const ProjectDetail = () => {
 };
 
 export default ProjectDetail;
-{/* <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-<div className="carousel-inner">
-  <div className="carousel-item active">
-    <img src={projectDetails.image2} className="d-block w-100" alt="..."/>
-  </div>
-  <div className="carousel-item" >
-    <img src={projectDetails.image3} className="d-block w-100" alt="..."/>
-  </div>
-  <div className="carousel-item ">
-    <img src={projectDetails.image4} className="d-block w-100" alt="..."/>
-  </div>
- 
-</div>
-</div> */}

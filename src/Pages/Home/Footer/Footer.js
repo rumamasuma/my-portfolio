@@ -9,8 +9,8 @@ const Footer = () => {
         </div>
         <div className="col-md-4 col-sm-12 p-5">
         <h3 className='fst-italic footer-heading '>Contact Me</h3>
-        <address className='text-white p-3 text-start'>
-        <i class="fas fa-map-marker-alt"></i>  Address: Gandaria, Dhaka-3401.Bangladesh <br />
+        <address className='text-white p-2 text-start'>
+        <i class="fas fa-map-marker-alt"></i>Address: Gandaria,Dhaka-1204, Bangladesh <br />
          <i class="fas fa-phone-alt"></i> Phone :+880 1782004248 <br />
          <i class="far fa-envelope"></i> Email : ruma.masuma@gmail.com
         </address>
